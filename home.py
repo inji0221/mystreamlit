@@ -4,8 +4,8 @@ from pathlib import Path
 
 def home():
 
-    # 실행 위치와 관계없이 home.py 옆 assets 폴더에서 대표 그림을 찾습니다.
-    image_path = Path(__file__).parent / "assets" / "jindo_bridge_illustration.png"
+    # 실행 위치와 관계없이 home.py 옆 images 폴더에서 대표 그림을 찾습니다.
+    image_path = Path(__file__).resolve().parent / "images" / "jindo_bridge_illustration.png"
     if image_path.exists():
         st.image(
             str(image_path),
