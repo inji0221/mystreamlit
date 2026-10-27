@@ -1,7 +1,8 @@
 streamlit
+streamlit-option-menu
 pandas
 requests
-openai
-plotly
 folium
 streamlit-folium
+openai
+plotly
